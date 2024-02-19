@@ -1,0 +1,25 @@
+{
+  "extends": "@rocketseat/eslint-config/react",
+
+  "plugins": ["simple-import-sort"],
+
+  "rules": {
+    "camelcase": "off",
+    "react/display-name": "off",
+    "simple-import-sort/imports": "error",
+
+    "react/self-closing-comp": [
+      "error",
+      {
+        "component": true,
+        "html": true
+      }
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      {
+        "argsIgnorePattern": "^(props|rest)$"
+      }
+    ]
+  }
+}
