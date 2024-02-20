@@ -2,11 +2,12 @@ import { Outlet } from 'react-router-dom'
 
 export function AppLayout() {
   return (
-    <div>
+    <div className="">
       <h1>Cabeçalho AppLayout</h1>
-      <div>
+
+      <main>
         <Outlet />
-      </div>
+      </main>
     </div>
   )
 }
