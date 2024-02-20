@@ -77,14 +77,17 @@ export function SignUp() {
               <Label htmlFor="restaurantName">Nome do estabelecimento</Label>
               <Input id="restaurantName" {...register('restaurantName')} />
             </div>
+
             <div className="space-y-2 ">
               <Label htmlFor="manangerName">Seu nome completo</Label>
               <Input id="manangerName" {...register('manangerName')} />
             </div>
+
             <div className="space-y-2 ">
               <Label htmlFor="email">Seu e-mail</Label>
               <Input id="email" type="email" {...register('email')} />
             </div>
+
             <div className="space-y-2 ">
               <Label htmlFor="phone">Seu telefone</Label>
               <Input id="phone" type="tel" {...register('phone')} />
